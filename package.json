@@ -1,0 +1,25 @@
+{
+  "name": "webchat-simple",
+  "version": "1.0.0",
+  "description": "- It is a simple webchat app\r - MsgEnger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByteAstro/webChat-simple.git"
+  },
+  "author": "ByteAstro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ByteAstro/webChat-simple/issues"
+  },
+  "homepage": "https://github.com/ByteAstro/webChat-simple#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MsgEnger</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="https://cdn.socket.io/4.7.2/socket.io.min.js"
+        integrity="sha384-mZLF4UVrpi/QTWPA7BjNPEnkIfRFn4ZEO3Qt/HFklTJBj/gBOV8G3HcKn4NfQblz"
+        crossorigin="anonymous"></script>
+    <script defer src="/client.js"></script>
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="/chat.png" alt="Logo">
+        <h1 class="logo-h1"><i>Welcome to MsgEnger</i></h1>
+    </nav>
+    <div class="container">
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <!-- <input type="text" name="messageInp" id="messageInp"> -->
+            <textarea name="messageInp" id="messageInp" oninput="inptExpand()"></textarea>
+            <button type=" submit" class="btn">Send</button>
+        </form>
+    </div>
+    <footer id="footer">
+        For a surprise &nbsp;
+        <a href="https://www.youtube.com/watch?v=GhX6UeQCWoI" target="_blank">Click here</a>
+    </footer>
+</body>
+
+</html>
